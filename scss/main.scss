@@ -14,6 +14,10 @@ body {
   	font-size:14px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 .container {
 	max-width:1000px;
 }
@@ -22,7 +26,9 @@ body {
 }
 
 
-
+#home, #about, #skills, #xp, #contact, #portfolio {
+	height:75px;
+}
 
 
 
@@ -46,6 +52,38 @@ body {
 .nav.scrolledDown {
   background-color:$scrollMenu;
   transition:background-color 0.7s;
+}
+@media(max-width:1100px) {
+	.nav {
+		.container {
+			ul {
+				position:relative;
+				display:block;
+				li {
+					display:none;
+				}
+				li.shown {
+					display:block;
+					width:100%;
+					background-color:$scrollMenu;
+					//transition:background-color 1s;
+					&:first-of-type{
+						margin-top:0px;
+					}
+					a {
+						display:block;
+						padding:10px;
+					}
+				}
+				li.mobile-nav-icon {
+					display:block;
+					position:fixed;
+					top:5px;
+					right:15px;
+				}
+			}
+		}
+	}
 }
 .nav {
   text-align: center;
@@ -79,15 +117,18 @@ body {
         }
       }
     }
-  }
-}
-@media(max-width:900px) {
-  .nav {
-    ul {
-      display:none;
+    .mobile-nav-icon {
+    	display:none;
     }
   }
 }
+// @media(max-width:900px) {
+//   .nav {
+//     ul {
+//       display:none;
+//     }
+//   }
+// }
 
 
 
