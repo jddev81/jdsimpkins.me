@@ -6,9 +6,9 @@
 					Copyright &copy; <?php echo date('Y'); ?> JD Simpkins
 				</div>
 				<div class="col-md-6">
-					<a href="#"><i class="fab fa-github-alt"></i></a>
-					<a href="#"><i class="fab fa-linkedin-in"></i></a>
-					<a href="#"><i class="fab fa-facebook-f"></i></a>
+					<a href="https://github.com/jddev81" target="_blank"><i class="fab fa-github-alt"></i></a>
+					<a href="https://stackoverflow.com/users/11120825/jddev81" target="_blank"><i class="fab fa-stack-overflow"></i></a>
+					<a href="https://www.linkedin.com/in/jd-simpkins-02ab5b13b/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
 				</div>
 			</div>
 		</div>

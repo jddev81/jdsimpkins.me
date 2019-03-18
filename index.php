@@ -44,11 +44,11 @@
 
 						<ul>
 
-							<li><a href="https://facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+							<li><a href="https://www.linkedin.com/in/jd-simpkins-02ab5b13b/" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
 
-							<li><a href="#" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+							<li><a href="https://stackoverflow.com/users/11120825/jddev81" target="_blank"><i class="fab fa-stack-overflow"></i></a></li>
 
-							<li><a href="#" target="_blank"><i class="fab fa-github-alt"></i></a></li>
+							<li><a href="https://github.com/jddev81" target="_blank"><i class="fab fa-github-alt"></i></a></li>
 
 						</ul>
 
