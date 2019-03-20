@@ -30,7 +30,7 @@
 
 			<h2>Full Stack Web Developer</h2>
 
-			<p><i class="icon fa fa-envelope"></i> <a href="mailto:hey@jdsimpkins.me">hey@jdsimpkins.me</a></p>
+			<p><i class="icon fa fa-envelope"></i> <a href="mailto:hey@jdsimpkins.me">hello@jdsimpkins.dev</a></p>
 
 			<p><i class="icon fas fa-mobile"></i><a href="tel:1-304-730-8502">(304) 730-8502</a></p>
 
@@ -641,7 +641,7 @@
 
 						<h4>Email</h4>
 
-						<p>hey@jdsimpkins.me</p>
+						<p>hello@jdsimpkins.dev</p>
 
 						<div class="clear-fix"></div>
 
@@ -665,6 +665,12 @@
 
 				</div><!--col-->
 
+				<?php
+					if(isset($_POST['submit'])) {
+
+					}
+				?>
+
 				<div class="col-md-6 wow fadeInRight">
 
 					<form action="#" method="POST">
@@ -672,6 +678,7 @@
 						<input type="text" name="lName" placeholder="Last Name">
 						<input type="email" name="email" placeholder="Your Email">
 						<input class="off" name="subject" value="">
+						<input id="the_name" placeholder="What is your name?" type="text">
 						<textarea name="theMessage" placeholder="Your Message"></textarea>
 						<input type="submit" class="submit" name="submit" value="SEND">
 					</form>

@@ -25,6 +25,11 @@ html {
   height: 75px;
 }
 
+input#the_name {
+  margin-left: -99999px !important;
+  position: fixed !important;
+}
+
 /*
 	NAVIGATION
 */
