@@ -92,6 +92,9 @@ html {
 .nav ul li a:hover {
   color: #0bceaf;
 }
+.nav ul li a.active {
+  color: #0bceaf;
+}
 .nav ul .mobile-nav-icon {
   display: none;
 }

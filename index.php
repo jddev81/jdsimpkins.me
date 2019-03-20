@@ -11,7 +11,7 @@
 <!--
 	INTRO SECTION
 ============================-->
-<div id="home"></div>
+<div id="home" class="container-link"></div>
 <div class="container intro-wrapper">
 
 	<div class="row flex-md-row-reverse">
@@ -88,7 +88,7 @@
 <!--
 	ABOUT SECTION
 =========================-->
-<div id="about"></div>
+<div id="about" class="container-link"></div>
 <div class="container about-wrapper">
 
 	<div class="row">
@@ -160,7 +160,7 @@
 <!--
 	Skills SECTION (formerly named whatIDo-wrapper)
 ===============================-->
-<div id="skills"></div>
+<div id="skills" class="container-link"></div>
 <div class="container whatIDo-wrapper">
 
 	<h2 class="wow fadeInLeft">Technical Skills &amp; Tools</h2>
@@ -356,7 +356,7 @@
 <!--
 	EXPERIENCES SECTION
 =============================-->
-<div id="xp"></div>
+<div id="xp" class="container-link"></div>
 <div class="Experience-wrapper">
 
 	<div class="container">
@@ -480,7 +480,7 @@
 <!--
 	PORTFOLIO SECTION
 =================================-->
-<div id="portfolio"></div>
+<div id="portfolio" class="container-link"></div>
 <div class="portfolio-wrapper">
 
 	<div class="container">
@@ -602,7 +602,7 @@
 <!--
 	CONTACT SECTION
 ============================-->
-<div id="contact"></div>
+<div id="contact" class="container-link"></div>
 <div class="Contact-wrapper">
 
 	<h3 class="wow fadeInLeft">Contact Me</h3>

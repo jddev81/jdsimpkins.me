@@ -116,6 +116,9 @@ html {
         	color:$highlight;
         }
       }
+      a.active {
+      	color:$highlight;
+      }
     }
     .mobile-nav-icon {
     	display:none;

@@ -4,7 +4,7 @@
 
 		<ul>
 
-			<li class="pi"><a href="#home">Home</a></li>
+			<li class="pi"><a href="#home" class="active">Home</a></li>
 
 			<li class="pi"><a href="#about">About</a></li>
 
