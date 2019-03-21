@@ -667,7 +667,14 @@
 
 				<?php
 					if(isset($_POST['submit'])) {
+						$success == false;
+						if(!empty($_POST['the_name'])) {
+							//spam filter has been filled out, let's act like the form was submitted
+							$success == true;
+						}
+						else {
 
+						}
 					}
 				?>
 
@@ -678,7 +685,7 @@
 						<input type="text" name="lName" placeholder="Last Name">
 						<input type="email" name="email" placeholder="Your Email">
 						<input class="off" name="subject" value="">
-						<input id="the_name" placeholder="What is your name?" type="text">
+						<input id="the_name" name="the_name" placeholder="What is your name?" type="text">
 						<textarea name="theMessage" placeholder="Your Message"></textarea>
 						<input type="submit" class="submit" name="submit" value="SEND">
 					</form>
