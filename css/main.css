@@ -25,6 +25,19 @@ html {
   height: 75px;
 }
 
+.success-flash, .error-flash {
+  background-color: #4bb543;
+  padding: 30px;
+  text-align: center;
+  color: white;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.error-flash {
+  background-color: #bb0000;
+}
+
 input#the_name {
   margin-left: -99999px !important;
   position: fixed !important;
@@ -501,6 +514,9 @@ CONTACT SECTION
   background-color: #0DAA93;
   color: white;
   text-align: center;
+}
+.Contact-wrapper input.submit:hover {
+  cursor: pointer;
 }
 .Contact-wrapper ::-webkit-input-placeholder {
   /* Chrome/Opera/Safari */

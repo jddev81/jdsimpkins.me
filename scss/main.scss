@@ -30,6 +30,18 @@ html {
 	height:75px;
 }
 
+.success-flash, .error-flash {
+	background-color:#4bb543;
+	padding:30px;
+	text-align:center;
+	color:white;
+	margin-top:50px;
+	margin-bottom:50px;
+}
+.error-flash {
+	background-color:#bb0000;
+}
+
 
 
 
@@ -921,6 +933,9 @@ CONTACT SECTION
   		background-color:#0DAA93;
   		color:white;
   		text-align:center;
+  		&:hover {
+  			cursor:pointer;
+  		}
   	}
   	::-webkit-input-placeholder { /* Chrome/Opera/Safari */
 	  color: #CCC;

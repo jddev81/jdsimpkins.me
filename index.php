@@ -667,28 +667,73 @@
 
 				<?php
 					if(isset($_POST['submit'])) {
-						$success == false;
+						$success = false;
 						if(!empty($_POST['the_name'])) {
 							//spam filter has been filled out, let's act like the form was submitted
-							$success == true;
+							$success = true;
 						}
 						else {
+							//spam filter field was blank as it should be so let's process the form
+							$fName 		= ucwords($_POST['fName']);
+							$lName 		= ucwords($_POST['lName']);
+							$email 		= strtolower($_POST['email']);
+							$subject_of = ucwords($_POST['subject']);
+							$message 	= $_POST['theMessage'];
+							
+							$to 		= "hello@jdsimpkins.dev";
+							$subject 	= "Portfolio Contact Form Submission";
+							$headers 	= "MIME-Version: 1.0" . "\r\n";
+							$headers 	.= "Content-type:text/html;charset=UTF-8" . "\r\n";
+							$headers 	.= 'From: <no-reply@jdsimpkins.dev>' . "\r\n";
 
+							$msg 		= '<html>';
+
+								$msg 	.= '<head>';
+									$msg 	.= '<title>' . $subject . '</title>';
+								$msg 	.= '</head>';
+
+								$msg 	.= '<body>';
+									$msg 	.= '<p>The following information was entered on the contact form on your portfolio website "JDSIMPKINS.DEV".</p>';
+									$msg 	.= '<p><b>First Name:</b> ' . $fName . '<br/>';
+									$msg 	.= '<b>Last Name:</b> ' . $lName . '<br/>';
+									$msg 	.= '<b>Email Address:</b> ' . $email . '<br/>';
+									$msg 	.= '<b>Subject:</b> ' . $subject_of . '</p>';
+									$msg 	.= '<p><b>Message:</b><br/>';
+									$msg 	.= $message . '</p>'; 
+
+								$msg 	.= '</body>';
+
+							$msg 		.= '</html>';
+
+							if(mail($to,$subject,$msg,$headers)) {
+								$success = true;
+							}
+							else {
+								$error = 'Something went wrong. If the problem persists, please give me a call or shoot an email to let me know.';
+							}
 						}
+						
 					}
 				?>
 
 				<div class="col-md-6 wow fadeInRight">
 
-					<form action="#" method="POST">
-						<input type="text" name="fName" placeholder="First Name">
-						<input type="text" name="lName" placeholder="Last Name">
-						<input type="email" name="email" placeholder="Your Email">
+					<?php if(isset($error)) : ?>
+						<div class="error-flash wow fadeIn delay-1s"><?php echo $error; ?></div>
+					<?php endif; ?>
+					<?php if(isset($success) && $success==true) : ?>
+						<div class="success-flash wow fadeIn delay-1s">Thanks! Your message was sent. I'll be in touch shortly.</div>
+					<?php else : ?>
+					<form action="#contact" method="POST">
+						<input type="text" name="fName" placeholder="First Name" required>
+						<input type="text" name="lName" placeholder="Last Name" required>
+						<input type="email" name="email" placeholder="Your Email" required>
 						<input class="off" name="subject" value="">
 						<input id="the_name" name="the_name" placeholder="What is your name?" type="text">
-						<textarea name="theMessage" placeholder="Your Message"></textarea>
+						<textarea name="theMessage" placeholder="Your Message" required></textarea>
 						<input type="submit" class="submit" name="submit" value="SEND">
 					</form>
+					<?php endif; ?>
 
 				</div><!--col-->
 
