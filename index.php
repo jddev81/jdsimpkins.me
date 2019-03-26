@@ -95,7 +95,7 @@
 
 		<div class="col-sm-6">
 
-			<img class="wow fadeInUp" src="img/cartoon-jd-at-computer.png" alt="JD At Computer">
+			<img class="wow fadeInUp about-main-img" src="img/cartoon-jd-at-computer.png" alt="JD At Computer">
 
 		</div><!--col-->
 
@@ -667,20 +667,24 @@
 
 				<?php
 					if(isset($_POST['submit'])) {
+
 						$success = false;
-						if(!empty($_POST['the_name'])) {
-							//spam filter has been filled out, let's act like the form was submitted
-							$success = true;
-						}
-						else {
+
+						// if(!empty($_POST['subject'])) {
+						// 	//spam filter has been filled out, let's act like the form was submitted
+						// 	$success = true;
+						// 	$error = 'spam filter';
+						// }
+						// else {
 							//spam filter field was blank as it should be so let's process the form
 							$fName 		= ucwords($_POST['fName']);
 							$lName 		= ucwords($_POST['lName']);
 							$email 		= strtolower($_POST['email']);
-							$subject_of = ucwords($_POST['subject']);
+							//$subject_of = ucwords($_POST['subject']);
 							$message 	= $_POST['theMessage'];
 							
-							$to 		= "hello@jdsimpkins.dev";
+							//$to 		= "hello@jdsimpkins.dev";
+							$to 		= "jd.dev81@gmail.com";
 							$subject 	= "Portfolio Contact Form Submission";
 							$headers 	= "MIME-Version: 1.0" . "\r\n";
 							$headers 	.= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -696,8 +700,8 @@
 									$msg 	.= '<p>The following information was entered on the contact form on your portfolio website "JDSIMPKINS.DEV".</p>';
 									$msg 	.= '<p><b>First Name:</b> ' . $fName . '<br/>';
 									$msg 	.= '<b>Last Name:</b> ' . $lName . '<br/>';
-									$msg 	.= '<b>Email Address:</b> ' . $email . '<br/>';
-									$msg 	.= '<b>Subject:</b> ' . $subject_of . '</p>';
+									$msg 	.= '<b>Email Address:</b> ' . $email . '</p>';
+									//$msg 	.= '<b>Subject:</b> ' . $subject_of . '</p>';
 									$msg 	.= '<p><b>Message:</b><br/>';
 									$msg 	.= $message . '</p>'; 
 
@@ -711,25 +715,26 @@
 							else {
 								$error = 'Something went wrong. If the problem persists, please give me a call or shoot an email to let me know.';
 							}
-						}
+						// }
 						
 					}
 				?>
 
-				<div class="col-md-6 wow fadeInRight">
+				<div class="col-md-6 wow fadeInRight form-section">
 
 					<?php if(isset($error)) : ?>
 						<div class="error-flash wow fadeIn delay-1s"><?php echo $error; ?></div>
 					<?php endif; ?>
 					<?php if(isset($success) && $success==true) : ?>
 						<div class="success-flash wow fadeIn delay-1s">Thanks! Your message was sent. I'll be in touch shortly.</div>
+						<!-- <?php var_dump($_POST); ?> -->
 					<?php else : ?>
 					<form action="#contact" method="POST">
 						<input type="text" name="fName" placeholder="First Name" required>
 						<input type="text" name="lName" placeholder="Last Name" required>
 						<input type="email" name="email" placeholder="Your Email" required>
-						<input class="off" name="subject" value="">
-						<input id="the_name" name="the_name" placeholder="What is your name?" type="text">
+						<!-- <input class="off" type="search" name="subject"> -->
+						<!-- <input id="the_name" name="the_name" placeholder="What is your name?" type="text"> -->
 						<textarea name="theMessage" placeholder="Your Message" required></textarea>
 						<input type="submit" class="submit" name="submit" value="SEND">
 					</form>

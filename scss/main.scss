@@ -166,14 +166,33 @@ input#the_name {
 /*
 	INTRO SECTION 
 */
-
+@media(max-width:800px) {
+	.intro-wrapper {
+		margin-top:100px !important;
+		img {
+		    margin:0 auto !important;
+		    margin-bottom:50px !important;
+		    float:none !important;
+		}
+	}
+}
+@media(max-width:450px) {
+	.intro-wrapper {
+		margin-top:50px !important;
+		img {
+			//margin-bottom:50px !important;
+			height:300px !important;
+			width:300px !important;
+		}
+	}
+}
 .intro-wrapper {
   margin-top:200px;
   color:$offWhite;
   
-.placeholder {
-  height:900px;
-}
+	.placeholder {
+	  height:900px;
+	}
   span.pseudo-button {
     background-color: #35CEF5;
     font-size: 14px;
@@ -239,6 +258,7 @@ input#the_name {
         a {
           color:#E7E7E8;
           text-decoration:none !important;
+          font-size:25px;
           &:hover {
             color:#35CEF5;
           }
@@ -248,13 +268,13 @@ input#the_name {
   }
 }
 
-@media(max-width:900px) {
-  img {
-    width:200px;
-    height:200px;
-    margin:0 auto;
-  }
-}
+// @media(max-width:900px) {
+//   img {
+//     width:200px;
+//     height:200px;
+//     margin:0 auto;
+//   }
+// }
 
 
 
@@ -317,6 +337,7 @@ input#the_name {
 	img {
 		width:100%;
 		height:auto;
+		margin-bottom:50px;
 	}
 	p.taj {
 		text-align:justify;
@@ -719,7 +740,11 @@ input#the_name {
 
 
 
-
+@media(max-width:800px) {
+	.Experience-wrapper {
+		padding:80px 10px !important;
+	}
+}
 /*
 EXPERIENCES SECTION
 */
@@ -892,6 +917,7 @@ CONTACT SECTION
 				text-align:center;
 				line-height:80px;
 				float:left;
+				font-size:25px;
 			}
 			h4 {
 				font-weight:bold;
@@ -953,6 +979,11 @@ CONTACT SECTION
 		position:absolute;
 		top:-9999999px;
 		left:-9999999px;
+	}
+}
+@media(max-width:768px) {
+	.form-section {
+		margin-top:50px;
 	}
 }
 
