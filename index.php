@@ -500,6 +500,7 @@
 							<li>WordPress</li>
 							<li>PHP</li>
 							<li>Javascript</li>
+							<li>Weather API</li>
 						</ul>
 						<a href="portfolio.php?item=thcw">More Info</a>
 				  	</div>
@@ -516,6 +517,7 @@
 							<li>PHP</li>
 							<li>Javascript</li>
 							<li>WordPress</li>
+							<li>Google Maps API</li>
 						</ul>
 						<a href="portfolio.php?item=ecoDev">More Info</a>
 				  	</div>
@@ -542,6 +544,23 @@
 				</div>
 
 
+				
+			</div>
+
+			<div class="mosaic-col">
+
+				<!-- <div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/digitalComputingSolutions.PNG" alt="Digital Computing Solutions">
+					<div class="card-body">
+						<h5>Digital Computing Solutions</h5>
+						<ul>
+							<li>Custom Theme</li>
+							<li>WordPress</li>
+						</ul>
+						<a href="portfolio.php?item=dcs">More Info</a>
+				  	</div>
+				</div> -->
+
 				<div class="card" style="width: 18rem;">
 					<img class="card-img-top" src="img/portfolio/invoicingApp.PNG" alt="Invoicing Application">
 					<div class="card-body">
@@ -553,21 +572,6 @@
 							<li>Javascript</li>
 						</ul>
 						<a href="portfolio.php?item=invoicingApp">More Info</a>
-				  	</div>
-				</div>
-			</div>
-
-			<div class="mosaic-col">
-
-				<div class="card" style="width: 18rem;">
-					<img class="card-img-top" src="img/portfolio/digitalComputingSolutions.PNG" alt="Digital Computing Solutions">
-					<div class="card-body">
-						<h5>Digital Computing Solutions</h5>
-						<ul>
-							<li>Custom Theme</li>
-							<li>WordPress</li>
-						</ul>
-						<a href="portfolio.php?item=dcs">More Info</a>
 				  	</div>
 				</div>
 

@@ -17,6 +17,30 @@ if(isset($_GET['item'])) {
 			$aboutProject 		= 'portfolioAbout/the-hand-car-wash.php';
 			$skills 			= array('Custom Theme', 'WordPress', 'PHP', 'Javascript');
 			break;
+		case 'employmentApp' :
+			$projectTitle 		= 'Apply For Employment Application';
+			$projectImg 		= "img/portfolio/employmentApp.PNG";
+			$githubLink 		= '';
+			$projectLink 		= '';
+			$aboutProject 		= 'portfolioAbout/employment-app.php';
+			$skills 			= array('HTML', 'CSS', 'PHP', 'Javascript');
+			break;
+		case 'invoicingApp' :
+			$projectTitle 		= 'Invoicing Application';
+			$projectImg 		= "img/portfolio/invoicingApp.PNG";
+			$githubLink 		= '';
+			$projectLink 		= 'http://admin.dcsmarketing.net';
+			$aboutProject 		= 'portfolioAbout/invoicing-app.php';
+			$skills 			= array('HTML', 'CSS', 'PHP', 'Javascript', 'MySQL');
+			break;
+		case 'ecoDev' :
+			$projectTitle 		= 'Economic Development Authority';
+			$projectImg 		= "img/portfolio/masonCounty.PNG";
+			$githubLink 		= '';
+			$projectLink 		= 'http://masoncounty.org';
+			$aboutProject 		= 'portfolioAbout/mceda.php';
+			$skills 			= array('HTML', 'CSS', 'PHP', 'Javascript', 'MySQL', 'WordPress', 'Google Maps 							API');
+			break;
 		default : 
 			$error = true;
 			$errorTitle = 'Project Doesn\'t exist';
