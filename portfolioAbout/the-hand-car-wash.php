@@ -1,0 +1,9 @@
+<p>This project starte with talks of building and implementing a rewards system. The idea was like many of the customer loyalty/rewards systems out there today. Each time a customer comes through the car wash, they earn points they can cash in for bonus items (free car washes, gas cards, etc.)</p>
+
+<p>This (the rewards program) turned into phase 2 of the project. First, we needed to build a website for the car wash. I decided to build this one page website on WordPress with a custom theme and some custom functionality.</p>
+
+<p>One of the primary features of the website is to tell the visitor if the car wash is currently open or closed. When open, we display a hero slider and bubbles float from the bottom of the screen to the top. When closed due to inclement weather, we stop the bubbles and in place of the slider, we display a simulated thunderstrom (javascript and css) with the words "Closed Due To Weather".</p>
+
+<p>The coolness doens't stop there. The owner of the car wash has several businesses and is a fairly busy person. He didn't want to be taksed with logging in each morning and toggling the open/closed option on the website so I run a cron job each morning that sends out an email asking if the car wash will be open or closed that day. He simply clicks a button in the email and the magic happens.</p>
+
+<p>Sometimes they will be open for the day and the weather turns bad though. Now, he needs to stop what he is doing, log in, and toggle the switch. I wanted to make this much easier for him. I decided to write a script that runs every half hour during normal buisness hours that connects to a weather API and if it is raining or other "bad" weather, I send an email giving the details of the weather and a button to close the car wash.</p>

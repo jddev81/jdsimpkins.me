@@ -622,7 +622,53 @@ footer a:hover {
 
 .portfolio-page-container {
   min-height: 500px;
-  margin-top: 100px;
+  margin-top: 150px;
+  margin-bottom: 80px;
+}
+.portfolio-page-container h1 {
+  margin-bottom: 50px;
+}
+.portfolio-page-container .links a {
+  display: block;
+  text-align: center;
+  margin-top: 15px;
+  background-color: #0BCEAF;
+  color: white;
+  text-decoration: none !important;
+  border: none !important;
+  outline: none !important;
+}
+.portfolio-page-container .links a .icon {
+  margin-right: 5px;
+}
+.portfolio-page-container .links .gh {
+  background-color: #6e5494;
+  color: white;
+}
+.portfolio-page-container .skills-head {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.portfolio-page-container ul.skills {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  margin-bottom: 40px;
+}
+.portfolio-page-container ul.skills li {
+  float: left;
+  padding: 2px 12px;
+  margin-bottom: 10px;
+  margin-right: 12px;
+  border: 1px solid #0BCEAF;
+  border-radius: 5px;
+}
+
+.clear-fix {
+  clear: both;
+  height: 1px;
+  width: 100%;
+  display: block;
 }
 
 /*# sourceMappingURL=main.css.map */

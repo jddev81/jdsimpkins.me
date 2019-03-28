@@ -4,7 +4,7 @@
 let nav = document.getElementById('nav');
 let scrolled = document.addEventListener("scroll", highlightNav);
 function highlightNav() {
-	if(window.pageYOffset > 100) {
+	if(window.pageYOffset > 80) {
 		nav.classList.add('scrolledDown');
 	} else {
 		nav.classList.remove('scrolledDown');
@@ -44,7 +44,7 @@ $(document).ready(function(){
       var id = $currentSection.attr('id');
       console.log('This ' + id);
    	 $('a').removeClass('active');
-   	 $("[href='#"+id+"']").addClass('active');
+   	 $("[href='index.php#"+id+"']").addClass('active');
 
    	 console.log('This' + id);
       
