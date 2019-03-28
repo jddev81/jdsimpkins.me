@@ -588,4 +588,41 @@ footer a:hover {
   text-shadow: 0px 0px 1px #333;
 }
 
+.card {
+  border: 2px solid #E7E7E8;
+  margin-bottom: 30px;
+  background-color: #E7E7E8;
+  color: #100E17;
+}
+.card ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.card ul li {
+  float: left;
+  padding: 2px 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  border: 1px solid #0BCEAF;
+  border-radius: 5px;
+  font-size: 90%;
+}
+.card a {
+  background-color: #0BCEAF;
+  color: white;
+  dispaly: block;
+  clear: both;
+  padding: 6px;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none !important;
+  text-transform: uppercase;
+}
+
+.portfolio-page-container {
+  min-height: 500px;
+  margin-top: 100px;
+}
+
 /*# sourceMappingURL=main.css.map */

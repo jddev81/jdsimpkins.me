@@ -485,34 +485,98 @@
 
 	<div class="container">
 
-		<h2 class="wow fadeInLeft">Portfolio</h2>
+		<h2 class="wow fadeInLeft" style="margin-bottom:40px;">Portfolio</h2>
 
 		<div class="mosaic-row">
 
 			<div class="mosaic-col">
 
-				<a href="#"><img src="img/portfolio/invoicingApp.PNG" alt="Invoicing Application"><span class="overlay"><span class="content">Invoicing Application<br><i class="fa fa-search"></i></span></span></a>
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/theHandCarWash.PNG" alt="Car Wash Website">
+					<div class="card-body">
+						<h5>The Hand Car Wash</h5>
+						<ul>
+							<li>Custom Theme</li>
+							<li>WordPress</li>
+							<li>PHP</li>
+							<li>Javascript</li>
+						</ul>
+						<a href="portfolio.php?item=thcw">More Info</a>
+				  	</div>
+				</div>
 
-				<a href="#"><img src="img/portfolio/masonCounty.PNG" alt="Invoicing Application"><span class="overlay"><span class="content">Custom CMS & Wordpress<br><i class="fa fa-search"></i></span></span></a>
+
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/masonCounty.PNG" alt="Mason County Economic Development Authority">
+					<div class="card-body">
+						<h5>Website/Property Search App</h5>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>PHP</li>
+							<li>Javascript</li>
+							<li>WordPress</li>
+						</ul>
+						<a href="portfolio.php?item=ecoDev">More Info</a>
+				  	</div>
+				</div>
 				
 
-			</div><!--mosaic-col-->
+			</div>
+
 
 			<div class="mosaic-col">
 
-				<a href="#"><img src="img/portfolio/employmentApp.PNG" alt="Apply For Employment Application"><span class="overlay"><span class="content">Employment Web App<br><i class="fa fa-search"></i></span></span></a>
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/employmentApp.PNG" alt="Employment App">
+					<div class="card-body">
+						<h5>Employement App</h5>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>PHP</li>
+							<li>Javascript</li>
+						</ul>
+						<a href="portfolio.php?item=employmentApp">More Info</a>
+				  	</div>
+				</div>
 
-			</div><!--mosaic-col-->
+
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/invoicingApp.PNG" alt="Invoicing Application">
+					<div class="card-body">
+						<h5>Invoicing Application</h5>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>PHP</li>
+							<li>Javascript</li>
+						</ul>
+						<a href="portfolio.php?item=invoicingApp">More Info</a>
+				  	</div>
+				</div>
+			</div>
 
 			<div class="mosaic-col">
 
-				<a href="#"><img src="img/portfolio/digitalComputingSolutions.PNG" alt="Digital Computing Solutions"><span class="overlay"><span class="content">Wordpress Website<br><i class="fa fa-search"></i></span></span></a>
+				<div class="card" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/digitalComputingSolutions.PNG" alt="Digital Computing Solutions">
+					<div class="card-body">
+						<h5>Digital Computing Solutions</h5>
+						<ul>
+							<li>Custom Theme</li>
+							<li>WordPress</li>
+						</ul>
+						<a href="portfolio.php?item=dcs">More Info</a>
+				  	</div>
+				</div>
 
-			</div><!--mosaic-col-->
 
-			
+				
+			</div>
 
-		</div><!--mosaic-row-->
+
+		</div>
 
 	</div><!--container-->
 
