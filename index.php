@@ -544,6 +544,22 @@
 				</div>
 
 
+
+				<div class="card wow fadeInUp" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/freelancersWorkshop.PNG" alt="Freelancers Workshop">
+					<div class="card-body">
+						<h5>Freelancers Workshop</h5>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>Laravel</li>
+						</ul>
+						<a href="portfolio.php?item=freelancers-workshop">More Info</a>
+				  	</div>
+				</div>
+
+
 				
 			</div>
 

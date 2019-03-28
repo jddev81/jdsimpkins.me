@@ -49,6 +49,14 @@ if(isset($_GET['item'])) {
 			$aboutProject 		= 'portfolioAbout/milton-eats.php';
 			$skills 			= array('HTML', 'CSS', 'Javascript', 'Laravel');
 			break;
+		case 'freelancers-workshop' :
+			$projectTitle 		= 'Freelancers Workshop';
+			$projectImg 		= "img/portfolio/freelancersWorkshop.PNG";
+			$githubLink 		= 'https://github.com/jddev81/freelancersworkshop';
+			$projectLink 		= 'http://freelancersworkshop.com';
+			$aboutProject 		= 'portfolioAbout/freelancers-workshop.php';
+			$skills 			= array('HTML', 'CSS', 'Javascript', 'Laravel');
+			break;
 		default : 
 			$error = true;
 			$errorTitle = 'Project Doesn\'t exist';
