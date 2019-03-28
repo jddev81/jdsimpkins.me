@@ -34,8 +34,8 @@
 				<img class="img-fluid" src="<?php echo $projectImg; ?>" alt="<?php echo $projectTitle; ?>">
 
 				<div class="row links">
-					<div class="col-sm-6"><a class="btn <?php echo (empty($projectLink)) ? 'disabled' : ''; ?>" href="<?php echo $projectLink; ?>" target="_blank"><i class="icon fas fa-external-link-alt"></i> View Project</a></div>
-					<div class="col-sm-6"><a class="gh btn <?php echo (empty($githubLink)) ? 'disabled' : ''; ?>" href="<?php echo $githubLink; ?>" target="_blank"><i class="icon fab fa-github"></i> View On Github</a></div>
+					<div class="col-lg-6"><a class="btn <?php echo (empty($projectLink)) ? 'disabled' : ''; ?>" href="<?php echo $projectLink; ?>" target="_blank"><i class="icon fas fa-external-link-alt"></i> View Project</a></div>
+					<div class="col-lg-6"><a class="gh btn <?php echo (empty($githubLink)) ? 'disabled' : ''; ?>" href="<?php echo $githubLink; ?>" target="_blank"><i class="icon fab fa-github"></i> View On Github</a></div>
 				</div>
 
 				<h3 class="skills-head">Skills Used</h3>
@@ -46,7 +46,7 @@
 						}
 					?>
 				</ul>
-				<div class='clear-fix'></div>
+				<div class="clear-fix" style="height:35px;"></div>
 			</div>
 
 			<div class="col-sm-7">
