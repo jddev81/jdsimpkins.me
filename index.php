@@ -141,7 +141,7 @@
 
 					<div class="clear-fix"></div>
 
-					<a class="cta" href="#">Download CV <i class="icon fas fa-download"></i></a>
+					<a class="cta" href="#">Download Resume <i class="icon fas fa-download"></i></a>
 
 				</div><!--col-->
 
@@ -491,7 +491,7 @@
 
 			<div class="mosaic-col">
 
-				<div class="card" style="width: 18rem;">
+				<div class="card wow fadeInUp" style="width: 18rem;">
 					<img class="card-img-top" src="img/portfolio/theHandCarWash.PNG" alt="Car Wash Website">
 					<div class="card-body">
 						<h5>The Hand Car Wash</h5>
@@ -507,7 +507,7 @@
 				</div>
 
 
-				<div class="card" style="width: 18rem;">
+				<div class="card wow fadeInUp" style="width: 18rem;">
 					<img class="card-img-top" src="img/portfolio/masonCounty.PNG" alt="Mason County Economic Development Authority">
 					<div class="card-body">
 						<h5>Website/Property Search App</h5>
@@ -529,7 +529,7 @@
 
 			<div class="mosaic-col">
 
-				<div class="card" style="width: 18rem;">
+				<div class="card wow fadeInUp" style="width: 18rem;">
 					<img class="card-img-top" src="img/portfolio/employmentApp.PNG" alt="Employment App">
 					<div class="card-body">
 						<h5>Employement App</h5>
@@ -561,7 +561,7 @@
 				  	</div>
 				</div> -->
 
-				<div class="card" style="width: 18rem;">
+				<div class="card wow fadeInUp" style="width: 18rem;">
 					<img class="card-img-top" src="img/portfolio/invoicingApp.PNG" alt="Invoicing Application">
 					<div class="card-body">
 						<h5>Invoicing Application</h5>

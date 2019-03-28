@@ -140,7 +140,7 @@ input#the_name {
   }
 }
 .intro-wrapper {
-  margin-top: 200px;
+  margin-top: 150px;
   color: #E7E7E8;
 }
 .intro-wrapper .placeholder {
@@ -188,7 +188,7 @@ input#the_name {
   border-radius: 50%;
   padding: 15px;
   border: 15px solid black;
-  margin-top: -30px;
+  margin-top: 30px;
   float: right;
   display: block;
   margin-right: 50px;
@@ -372,6 +372,7 @@ input#the_name {
   margin-top: 15px;
   margin-bottom: 15px;
   transition: all 0.5s;
+  text-align: center;
 }
 .whatIDo-wrapper .the-card:hover {
   transform: scale(1.1);
