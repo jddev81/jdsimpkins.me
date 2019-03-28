@@ -576,6 +576,21 @@
 				</div>
 
 
+				<div class="card wow fadeInUp" style="width: 18rem;">
+					<img class="card-img-top" src="img/portfolio/miltonEats.PNG" alt="Milton Eats">
+					<div class="card-body">
+						<h5>Milton Eeats</h5>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>Laravel</li>
+						</ul>
+						<a href="portfolio.php?item=milton-eats">More Info</a>
+				  	</div>
+				</div>
+
+
 				
 			</div>
 
