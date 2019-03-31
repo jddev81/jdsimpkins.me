@@ -141,6 +141,7 @@ input#the_name {
 }
 .intro-wrapper {
   margin-top: 150px;
+  margin-bottom: 300px;
   color: #E7E7E8;
 }
 .intro-wrapper .placeholder {
@@ -219,7 +220,6 @@ input#the_name {
 	ABOUT SECTION
 */
 .about-wrapper {
-  margin-top: 300px;
   margin-bottom: 300px;
 }
 .about-wrapper img {
@@ -469,7 +469,6 @@ CONTACT SECTION
 */
 .Contact-wrapper {
   margin-bottom: 50px;
-  margin-top: 200px;
 }
 .Contact-wrapper h3 {
   padding-bottom: 50px;

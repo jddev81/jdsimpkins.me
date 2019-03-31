@@ -30,7 +30,7 @@
 
 			<h2>Full Stack Web Developer</h2>
 
-			<p><i class="icon fa fa-envelope"></i> <a href="mailto:hey@jdsimpkins.me">hello@jdsimpkins.dev</a></p>
+			<p><i class="icon fa fa-envelope"></i> <a href="mailto:hey@jdsimpkins.me">hello@jdsimpkins.me</a></p>
 
 			<p><i class="icon fas fa-mobile"></i><a href="tel:1-304-730-8502">(304) 730-8502</a></p>
 
@@ -740,7 +740,7 @@
 
 						<h4>Email</h4>
 
-						<p>hello@jdsimpkins.dev</p>
+						<p>hello@jdsimpkins.me</p>
 
 						<div class="clear-fix"></div>
 
@@ -782,8 +782,8 @@
 							//$subject_of = ucwords($_POST['subject']);
 							$message 	= $_POST['theMessage'];
 							
-							//$to 		= "hello@jdsimpkins.dev";
-							$to 		= "jd.dev81@gmail.com";
+							$to 		= "hello@jdsimpkins.me";
+							//$to 		= "jd.dev81@gmail.com";
 							$subject 	= "Portfolio Contact Form Submission";
 							$headers 	= "MIME-Version: 1.0" . "\r\n";
 							$headers 	.= "Content-type:text/html;charset=UTF-8" . "\r\n";
@@ -796,7 +796,7 @@
 								$msg 	.= '</head>';
 
 								$msg 	.= '<body>';
-									$msg 	.= '<p>The following information was entered on the contact form on your portfolio website "JDSIMPKINS.DEV".</p>';
+									$msg 	.= '<p>The following information was entered on the contact form on your portfolio website "JDSIMPKINS.ME".</p>';
 									$msg 	.= '<p><b>First Name:</b> ' . $fName . '<br/>';
 									$msg 	.= '<b>Last Name:</b> ' . $lName . '<br/>';
 									$msg 	.= '<b>Email Address:</b> ' . $email . '</p>';

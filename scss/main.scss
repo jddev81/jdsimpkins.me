@@ -179,6 +179,7 @@ input#the_name {
 @media(max-width:450px) {
 	.intro-wrapper {
 		margin-top:50px !important;
+
 		img {
 			//margin-bottom:50px !important;
 			height:300px !important;
@@ -188,6 +189,7 @@ input#the_name {
 }
 .intro-wrapper {
   margin-top:150px;
+  margin-bottom:300px;
   color:$offWhite;
   
 	.placeholder {
@@ -335,7 +337,8 @@ input#the_name {
 	ABOUT SECTION
 */
 .about-wrapper {
-	margin-top:300px;
+	//margin-top:300px;
+	//padding-top:300px;
 	margin-bottom:300px;
 
 	img {
@@ -889,7 +892,7 @@ CONTACT SECTION
 	
 	//padding:80px;
 	margin-bottom:50px;
-	margin-top:200px;
+	//margin-top:100px;
 
 	h3 {
 		padding-bottom:50px;
